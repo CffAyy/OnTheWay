@@ -1,5 +1,3 @@
-<%@ page language="java" contentType="text/html; charset=GB18030"
-    pageEncoding="GB18030"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -20,6 +18,5 @@
 <br>获取HTTP协议定义的文件头信息User—Agent的值：<%=request.getHeader("user-agent") %>
 <br>或得Http协议定义的文件头信息accept-language的值：<%=request.getHeader("accept-language") %>
 <br>获得请求文件的绝对路径：<%=request.getRealPath("获取客户端信息.jsp") %>
-    <h2>增加</h2>
 </body>
 </html>
